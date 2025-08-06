@@ -6,6 +6,8 @@ require_once __DIR__ . '/../vendor/autoload.php';
 
 use App\my\path\Request; // Replace it with your actual Reuest class
 use App\my\path\Response; // Replace it with your actual Response class
+use FastRoute\Dispatcher;
+use App\Middleware\MiddlewarePipeline;
 
 $request = new Request();
 $response = new Response();
