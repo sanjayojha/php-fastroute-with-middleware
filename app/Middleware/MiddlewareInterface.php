@@ -2,8 +2,8 @@
 
 namespace App\Middleware;
 
-use Swoole\Http\Request;
-use Swoole\Http\Response;
+use App\my\path\Request; // Replace it with your actual Reuest class
+use App\my\path\Response; // Replace it with your actual Response class
 
 interface MiddlewareInterface
 {
